@@ -13,7 +13,7 @@ void Multiplication()
 	{	// Everytime a number in a row appears we have to put a value for each column
 		for (int column = 0; column < 11; column++)
 		{
-			cout << MultiplicationTable[row][column] << "        ";
+			cout << MultiplicationTable[row][column] << "\t";
 		}
 
 		cout << endl;
